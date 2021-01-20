@@ -21,4 +21,9 @@ npm start
 
 Application is running on `http://localhost:1337`
 
+#### Development commands:
+
+- Starts application with the autoReload enabled: `npm run develop`
+- Builds the administration panel and minimizing the assets: `npm run build`
+
 To use this admin panel you should also clone and run the [client side application](https://github.com/fsefidabi/admin-panel-client.git).
