@@ -2,7 +2,7 @@
 
 Server application for [admin panel client](https://github.com/fsefidabi/admin-panel-client.git) which is built with strapi.
 
-#### Quick Start:
+### Quick Start:
 
 Use below commands to start vue app on port `1337`.
 ```
@@ -21,9 +21,16 @@ npm start
 
 Application is running on `http://localhost:1337`
 
-#### Development commands:
+### Available commands:
+```javascript
+// Starts application with the autoReload enabled
+npm run develop
 
-- Starts application with the autoReload enabled: `npm run develop`
-- Builds the administration panel and minimizing the assets: `npm run build`
+// Builds the administration panel and minimizing the assets
+npm run build
+
+// Run application in production mode
+npm run start
+```
 
 To use this admin panel you should also clone and run the [client side application](https://github.com/fsefidabi/admin-panel-client.git).
